@@ -83,6 +83,14 @@ const App = () => {
   );
 
   return (
+    <div className='App'>
+      <div className='header'>
+        <h1>Cobalt Cat NFTs</h1>
+        <h4>You must have a Solana wallet with SOL in it. We recommend using the Phantom Wallet browser plugin.</h4>
+        <h4>Sale starts on 'date'</h4>
+        <h4>Minting cost is 'cost'</h4>
+      </div>
+      <hr />
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
@@ -99,6 +107,7 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
+    </div>
   );
 };
 
