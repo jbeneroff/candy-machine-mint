@@ -22,6 +22,13 @@ import {
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 
+import logo from '../assets/logo.png';
+import devil from '../assets/nft-devil.png'
+import frankenstein from '../assets/nft-frankenstein.png'
+import mummy from '../assets/nft-mummy.png'
+import vampire from '../assets/nft-vampire.png'
+import wizard from '../assets/nft-wizard.png'
+
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
 );
