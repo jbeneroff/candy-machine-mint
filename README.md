@@ -1,2 +1,3 @@
-Cobalt Cat NFTs
-CBLTmint.com
+# Cobalt Cat NFTs
+
+[Cobalt Cat NFTs Website](https://cbltmint.com)
