@@ -22,12 +22,11 @@ import {
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 
-import logo from '../assets/logo.png';
-import devil from '../assets/nft-devil.png'
-import frankenstein from '../assets/nft-frankenstein.png'
-import mummy from '../assets/nft-mummy.png'
-import vampire from '../assets/nft-vampire.png'
-import wizard from '../assets/nft-wizard.png'
+import devil from './assets/nft-devil.png'
+import frankenstein from './assets/nft-frankenstein.png'
+import mummy from './assets/nft-mummy.png'
+import vampire from './assets/nft-vampire.png'
+import wizard from './assets/nft-wizard.png'
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -92,6 +91,13 @@ const App = () => {
   return (
     <div className='App'>
       <div className='header'>
+        <div className='nft-container'>
+          <img className='nft' src={devil} alt="devil" />
+          <img className='nft' src={frankenstein} alt="frankestein" />
+          <img className='nft' src={mummy} alt="mummy" />
+          <img className='nft' src={vampire} alt="vampire" />
+          <img className='nft' src={wizard} alt="wizard" />
+      </div>
         <h1>Cobalt Cat NFTs</h1>
         <h4>You must have a Solana wallet with SOL in it. We recommend using the Phantom Wallet browser plugin.</h4>
         <h4>Sale starts NOW</h4>

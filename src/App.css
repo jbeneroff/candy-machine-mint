@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+
+.nft {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 5px;
+}
